@@ -1,0 +1,31 @@
+{
+  "name": "pz-solid",
+  "version": "1.0.0",
+  "description": "> У цьому занятті студенти отримують практичні навички застосування SOLID принципів під час рефакторингу існуючого коду.   > Мета — створити гнучку, масштабовану та чисту архітектуру шляхом застосування SRP, OCP, LSP, ISP та DIP.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PIS-VITI-22/pz-SOLID.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PIS-VITI-22/pz-SOLID/issues"
+  },
+  "homepage": "https://github.com/PIS-VITI-22/pz-SOLID#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9",
+    "typescript": "^6.0.3"
+  }
+}
